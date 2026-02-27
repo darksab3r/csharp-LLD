@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+x/
+bulk update extensions.py
+*.DotSettings.user

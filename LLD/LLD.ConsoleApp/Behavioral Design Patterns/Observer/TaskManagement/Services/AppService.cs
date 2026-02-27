@@ -1,0 +1,14 @@
+using LLD.ConsoleApp.Observer.TaskManagement.Utils;
+
+namespace LLD.ConsoleApp.Observer.TaskManagement.Services
+{
+    public class AppService : IObserver
+    {
+        public void Notify(long id, long taskId)
+        {
+            string subject = "New task assigned";
+            string message = $"Task {taskId} assigned to user {id}";
+            NotificationUtils.SendPush(subject, message);
+        }
+    }
+}

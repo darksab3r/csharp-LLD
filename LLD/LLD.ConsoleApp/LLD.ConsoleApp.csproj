@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>ConsoleApp</AssemblyName>
+        <RootNamespace>LLD.ConsoleApp</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Behavioral Design Patterns\Observer\" />
+      <Folder Include="Creational Design Patterns\Builder\" />
+      <Folder Include="Structural Design Patterns\Decorator\ImageEditingApplication\" />
+      <Folder Include="Structural Design Patterns\Facade\" />
+    </ItemGroup>
+
+</Project>
